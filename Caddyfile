@@ -9,7 +9,7 @@
 
 # Backend API
 :8000 {
-    reverse_proxy host.docker.internal:5090
+    reverse_proxy new_test_server:6545
 }
 
 # prisma studio
