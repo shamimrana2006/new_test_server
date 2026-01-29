@@ -17,5 +17,5 @@
      basicauth {
         shamimrana2006 $2y$10$/x6ntJtyiAp/NAJlWZlYK.ikj517KYpgqgC.pg4xY32LrLpH6qc6y
     }
-    reverse_proxy new_test_server_prisma_studio:7896
+    reverse_proxy host.docker.internal:8462
 }
